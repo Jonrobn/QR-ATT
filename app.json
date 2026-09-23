@@ -5,8 +5,13 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
+<<<<<<< HEAD
     "scheme": "qratt",
     "userInterfaceStyle": "automatic",
+=======
+    "scheme": "qr-attendance",
+    "userInterfaceStyle": "light",
+>>>>>>> 9f9625f48a7a7f55bbd484825d26f3afa1e3082b
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
@@ -33,6 +38,7 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
+<<<<<<< HEAD
           "backgroundColor": "#ffffff",
           "dark": {
             "backgroundColor": "#000000"
@@ -42,6 +48,15 @@
     ],
     "experiments": {
       "typedRoutes": true,
+=======
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-sqlite",
+      "@react-native-community/datetimepicker"
+    ],
+    "experiments": {
+>>>>>>> 9f9625f48a7a7f55bbd484825d26f3afa1e3082b
       "reactCompiler": true
     }
   }
